@@ -1,7 +1,11 @@
-import React from "react";
+import NavbarMenu from "./NavbarMenu";
 
-function Menu(NavbarMenu) {
-  return <div>{NavbarMenu}</div>;
+function Menu() {
+  return (
+    <div>
+      <NavbarMenu />
+    </div>
+  );
 }
 
 export default Menu;
